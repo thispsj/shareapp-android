@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Locus</string>
+    <string name="menu_hs_news">News</string>
+    <string name="menu_hs_prefs">Settings</string>
+    <string name="app_sc_tv1">Loc</string>
+    <string name="app_sc_tv2">us</string>
+</resources>
