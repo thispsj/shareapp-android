@@ -4,4 +4,5 @@
     <string name="menu_hs_prefs">Settings</string>
     <string name="app_sc_tv1">Loc</string>
     <string name="app_sc_tv2">us</string>
+    <string name="str_local">Local</string>
 </resources>
