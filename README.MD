@@ -1,5 +1,5 @@
-# Locus For Android
- Android counterpart of Locus App.
+# ShareApp
+Codename:ShareApp is a file sharing app.
 
 # Dependencies
  **For Building**
