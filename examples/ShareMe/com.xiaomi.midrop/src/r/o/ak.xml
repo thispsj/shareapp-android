@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="{2:16843499}">
+		<EditText android:textSize="416153unknown unit:0x22" android:ellipsize="3" android:gravity="0x800013" android:id="false" android:background="r/f/c9.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10dp" android:hint="Search all files" android:singleLine="true" android:imeOptions="0x3" android:textAlignment="5" android:paddingStart="1464729unknown unit:0x21" android:paddingEnd="30dp" />
+		<com.xiaomi.midrop.view.AutoPressedStyleImageView android:layout_gravity="0x10" android:id="false" android:src="r/a8/p.png" android:layout_centerVertical="true" android:layout_marginStart="6710887unknown unit:0x31" android:layout_alignStart="false" style="resourceId:0x7f1001e6" />
+		<com.xiaomi.midrop.view.AutoPressedStyleImageView android:id="false" android:padding="12dp" android:visibility="2" android:src="r/a8/w.png" android:layout_centerVertical="true" android:layout_marginEnd="416153unknown unit:0x21" android:layout_alignParentEnd="true" style="resourceId:0x7f1001e6" />
+		<View android:id="false" android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="117dp" android:layout_below="false">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="r/a8/ar.png" android:layout_centerHorizontal="true" />
+		<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="894566unknown unit:0x21" android:text="Couldn&apos;t find results" android:layout_below="false" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<include android:id="false" android:layout_width="-1" android:layout_height="67dp" android:layout_alignParentBottom="true" layout="r/o/dr.xml" />
+	<android.support.v7.widget.RecyclerView android:id="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="-3dp" android:layout_marginBottom="3dp" android:layout_above="false" android:layout_below="false" />
+</RelativeLayout>

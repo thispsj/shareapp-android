@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_focused="true" android:state_enabled="false" android:state_pressed="true" android:drawable="r/a5/if.9.png" />
+	<item android:state_focused="true" android:state_enabled="false" android:drawable="r/a5/if.9.png" />
+	<item android:state_focused="true" android:state_pressed="true" android:drawable="r/f/br.xml" />
+	<item android:state_focused="false" android:state_pressed="true" android:drawable="r/f/br.xml" />
+	<item android:state_focused="true" android:drawable="r/a5/ia.9.png" />
+	<item android:drawable="resourceId:0x106000d" />
+</selector>

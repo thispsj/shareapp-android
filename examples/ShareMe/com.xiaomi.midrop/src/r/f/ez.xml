@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true">
+		<layer-list>
+			<item android:drawable="r/a8/k3.png" />
+			<item android:drawable="r/a8/k3.png" />
+		</layer-list>
+	</item>
+	<item android:state_pressed="false">
+		<layer-list>
+			<item android:drawable="r/a8/gb.png" />
+		</layer-list>
+	</item>
+</selector>

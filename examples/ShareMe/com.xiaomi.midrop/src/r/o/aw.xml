@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="r/a8/nj.png" android:scaleType="1" />
+	</FrameLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:paddingStart="1418854unknown unit:0x21" android:paddingEnd="1418854unknown unit:0x21">
+		<TextView android:textColor="99000" android:layout_width="-1" android:layout_height="-2" android:text="Transfer files without connecting to the internet" style="resourceId:0x7f10020a" />
+	</LinearLayout>
+	<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="r/f/d8.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:minHeight="1399193unknown unit:0x21" android:text="SHARE" android:onClick="onClick" android:layout_marginStart="874905unknown unit:0x21" android:layout_marginEnd="874905unknown unit:0x21" />
+</LinearLayout>

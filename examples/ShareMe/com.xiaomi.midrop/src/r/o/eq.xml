@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="r/a8/p_.9.png" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:layout_gravity="0x800013" android:id="resourceId:0x1020016" android:layout_width="-2" android:layout_height="-2" android:textAllCaps="true" style="resourceId:0x7f100143" />
+</FrameLayout>

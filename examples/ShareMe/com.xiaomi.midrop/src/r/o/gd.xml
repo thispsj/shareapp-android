@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ffffff" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<LinearLayout android:orientation="1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true">
+			<FrameLayout android:layout_gravity="0x1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="266dp" android:layout_height="266dp">
+				<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<ImageView android:layout_gravity="0x11" android:layout_width="63dp" android:layout_height="63dp" android:src="r/f/ci.xml" />
+				<com.xiaomi.midrop.view.ProfileImageView android:layout_gravity="0x11" android:id="false" android:layout_width="60dp" android:layout_height="60dp" />
+				<com.xiaomi.midrop.view.ConnectionCircleView android:layout_gravity="0x11" android:id="false" android:layout_width="8051097unknown unit:0x21" android:layout_height="8051097unknown unit:0x21" />
+				<ImageView android:id="false" android:background="r/f/g0.xml" android:layout_width="-1" android:layout_height="-1" android:layout_margin="13dp" />
+			</FrameLayout>
+			<TextView android:textSize="16sp" android:textColor="444444" android:ellipsize="3" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+		</LinearLayout>
+	</RelativeLayout>
+	<TextView android:textSize="12sp" android:textColor="707070" android:gravity="0x1" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="16dp" android:text="Ask the other person to tap &quot;Send&quot; and connect to your device." android:lineSpacingExtra="173670unknown unit:0x22" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="80dp" android:paddingStart="304742unknown unit:0x21" android:paddingEnd="9dp">
+	<View android:background="26000" android:layout_width="-2" android:layout_height="1px" />
+	<ImageView android:id="false" android:padding="2516583unknown unit:0x31" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="6" android:layout_centerVertical="true" android:layout_marginEnd="10dp" android:layout_alignParentStart="true" />
+	<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="000" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="42dp" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_marginEnd="5dp" android:layout_toStartOf="false" android:layout_toEndOf="false" />
+	<TextView android:textSize="14sp" android:textColor="68000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="42dp" android:layout_alignParentTop="true" android:layout_toEndOf="false" />
+	<ImageView android:id="false" android:layout_width="40dp" android:layout_height="40dp" android:src="r/a8/g.png" android:scaleType="7" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+	<ImageView android:id="false" android:visibility="2" android:layout_width="19dp" android:layout_height="19dp" android:src="r/a8/b2.png" android:scaleType="7" android:layout_centerVertical="true" android:layout_marginEnd="10dp" android:layout_toStartOf="false" />
+</RelativeLayout>

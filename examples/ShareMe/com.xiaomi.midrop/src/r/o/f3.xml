@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="14sp" android:textColor="444444" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20dp" android:text="Try again" android:layout_below="false" android:layout_centerHorizontal="true" />
+	<ImageView android:id="false" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginBottom="10dp" android:foreground="r/f/ch.xml" android:src="r/a8/ap.png" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+	<TextView android:textSize="16sp" android:textColor="444444" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="50dp" android:text="Couldn&apos;t start hotspot" android:layout_above="false" android:layout_centerHorizontal="true" />
+</RelativeLayout>

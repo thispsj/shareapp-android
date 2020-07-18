@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="r/f/ej.xml" android:padding="2516583unknown unit:0x31" android:layout_width="-1" android:layout_height="-2">
+	<android.support.v7.widget.RecyclerView android:id="false" android:paddingTop="4dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="14dp" android:paddingEnd="14dp" app:layoutManager="android.support.v7.widget.GridLayoutManager" />
+</RelativeLayout>

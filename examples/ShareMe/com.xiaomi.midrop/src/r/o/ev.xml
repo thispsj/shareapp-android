@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textSize="12sp" android:gravity="0x11" android:id="false" android:background="r/f/d7.xml" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:layout_centerInParent="true" android:layout_marginStart="1497497unknown unit:0x21" android:layout_marginEnd="1497497unknown unit:0x21" />
+</RelativeLayout>

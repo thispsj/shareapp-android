@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:background="fafafa" android:layout_width="-1" android:layout_height="-1">
+	<android.support.design.widget.AppBarLayout android:fadingEdge="0x0" android:layout_width="-1" android:layout_height="-2" app:elevation="0dp">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="44dp" android:paddingStart="16dp">
+			<RelativeLayout android:id="false" android:background="r/a8/me.9.png" android:layout_width="-2" android:layout_height="24dp" android:paddingStart="8dp" android:paddingEnd="4dp">
+				<TextView android:id="false" android:layout_width="-2" android:layout_height="-1" style="resourceId:0x7f1001f7" />
+				<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:src="r/f/e_.xml" android:paddingStart="4dp" android:paddingEnd="4dp" android:layout_toEndOf="false" />
+			</RelativeLayout>
+			<ImageView android:id="false" android:layout_width="-2" android:layout_height="24dp" android:src="r/a8/mg.webp" />
+			<android.support.v7.widget.RecyclerView android:layout_gravity="0x10" android:id="false" android:layout_width="-2" android:layout_height="24dp" />
+		</LinearLayout>
+		<View android:background="d9d9d9" android:layout_width="-1" android:layout_height="1px" />
+	</android.support.design.widget.AppBarLayout>
+	<android.support.v7.widget.RecyclerView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior" />
+	<include android:id="false" layout="r/o/c0.xml" />
+</android.support.design.widget.CoordinatorLayout>

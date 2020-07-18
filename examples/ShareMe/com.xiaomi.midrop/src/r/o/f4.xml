@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="r/f/ej.xml" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:layout_gravity="0x800013" android:id="false" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="7" android:layout_marginStart="16dp" />
+	<RelativeLayout android:layout_gravity="0x10" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:layout_marginStart="2270822unknown unit:0x21" android:layout_marginEnd="73dp">
+		<TextView android:id="false" android:layout_marginBottom="5dp" style="resourceId:0x7f1001fa" />
+		<TextView android:textColor="68000" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="127dp" android:singleLine="true" android:layout_below="false" />
+		<TextView android:textColor="68000" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text=" | " android:singleLine="true" android:layout_below="false" android:layout_toEndOf="false" />
+		<TextView android:textColor="68000" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_below="false" android:layout_toEndOf="false" />
+	</RelativeLayout>
+	<RelativeLayout android:layout_gravity="0x800005" android:layout_width="73dp" android:layout_height="-1">
+		<TextView android:textSize="353894unknown unit:0x22" android:textStyle="0x1" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="57dp" android:layout_height="28dp" android:singleLine="true" android:layout_centerVertical="true" android:textAllCaps="true" />
+		<ImageView android:layout_centerVertical="true" android:layout_marginEnd="18dp" android:layout_alignParentEnd="true" style="resourceId:0x7f1000f1" />
+	</RelativeLayout>
+	<View android:layout_gravity="0x50" android:id="false" android:background="d9d9d9" android:layout_width="-1" android:layout_height="1px" />
+	<ImageView android:layout_gravity="0x800005" android:id="false" android:visibility="2" android:layout_width="10dp" android:layout_height="10dp" android:src="r/a8/mw.png" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="r/f/e6.xml" android:layout_width="-1" android:layout_height="-2" android:layout_margin="304742unknown unit:0x21">
+	<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="000" android:ellipsize="2" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp" android:singleLine="true" />
+	<TextView android:textSize="14sp" android:textColor="55000" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="150732unknown unit:0x21" android:text="Don&apos;t turn off Wi-Fi during ongoing transfers." />
+	<TextView android:textSize="14sp" android:textColor="99000" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+	<com.xiaomi.midrop.view.ProfileImageView android:layout_gravity="0x1" android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" />
+	<TextView android:textSize="14sp" android:textColor="55000" android:layout_gravity="0x1" android:id="false" android:paddingTop="0dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

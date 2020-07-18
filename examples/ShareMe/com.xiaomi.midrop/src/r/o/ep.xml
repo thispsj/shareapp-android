@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:layout_gravity="0x10" android:background="{2:2130968887}" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:minWidth="0dp">
+		<ImageView android:gravity="0x11" android:layout_gravity="0x11" android:id="resourceId:0x1020006" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:scaleType="3" android:adjustViewBounds="true" android:paddingEnd="874905unknown unit:0x21" style="resourceId:0x7f1001dc" />
+	</LinearLayout>
+	<RelativeLayout android:gravity="0x10" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" style="resourceId:0x7f1001dd">
+		<TextView android:textAppearance="resourceId:0x7f100144" android:ellipsize="3" android:id="resourceId:0x1020016" android:fadingEdge="0x1000" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" />
+		<TextView android:textAppearance="resourceId:0x7f10013f" android:id="resourceId:0x1020010" android:layout_width="-2" android:layout_height="-2" android:maxLines="10" android:layout_below="resourceId:0x1020016" android:layout_alignStart="resourceId:0x1020016" />
+	</RelativeLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="resourceId:0x1020018" android:layout_width="-2" android:layout_height="-1" android:minWidth="10dp" />
+	<ImageView android:gravity="0x11" android:layout_gravity="0x800015" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="r/f/cg.xml" />
+</LinearLayout>

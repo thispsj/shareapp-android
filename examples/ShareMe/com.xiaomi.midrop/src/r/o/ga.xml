@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.midrop.view.MaxHeightLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="r/f/e6.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="304742unknown unit:0x21" android:layout_marginStart="304742unknown unit:0x21" android:layout_marginEnd="304742unknown unit:0x21">
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="44dp" android:paddingStart="12dp" android:paddingEnd="12dp">
+		<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="444444" android:layout_gravity="0x800013" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<LinearLayout android:gravity="0x800015" android:layout_gravity="0x800015" android:id="false" android:layout_width="40dp" android:layout_height="-1">
+			<ImageView android:id="false" android:layout_width="20dp" android:layout_height="-2" android:src="r/f/hb.xml" android:scaleType="7" />
+		</LinearLayout>
+	</FrameLayout>
+	<View android:layout_gravity="0x50" android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" />
+	<android.support.v7.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" />
+	<View android:background="34000" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" />
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="44dp">
+		<Button android:textSize="14sp" android:textColor="444444" android:gravity="0x11" android:id="false" android:background="r/f/e8.xml" android:layout_width="0dp" android:layout_height="-1" android:text="Close" android:layout_weight="{4:1065353216}" />
+		<View android:background="34000" android:layout_width="2516583unknown unit:0x31" android:layout_height="-1" />
+		<Button android:enabled="false" android:textSize="14sp" android:textColor="8009cff" android:gravity="0x11" android:id="false" android:background="r/f/e9.xml" android:layout_width="0dp" android:layout_height="-1" android:text="Update" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+</com.xiaomi.midrop.view.MaxHeightLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:id="false" android:layout_width="-1" android:layout_height="81920unknown unit:0x21" android:progressDrawable="r/f/hc.xml" style="{2:16842872}" />
+		<com.xiaomi.globalmiuiapp.common.view.CommonWebView android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" />
+	</LinearLayout>
+	<FrameLayout android:id="false" android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

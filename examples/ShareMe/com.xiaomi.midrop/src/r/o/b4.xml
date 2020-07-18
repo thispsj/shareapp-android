@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="2da1e5" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:src="r/a8/jv.png" android:layout_alignParentTop="true" android:layout_marginEnd="5dp" android:layout_alignParentEnd="true" />
+	<ImageView android:id="false" android:background="2da1e5" android:layout_width="-2" android:layout_height="-2" android:src="r/a8/k2.png" android:layout_below="false" android:layout_centerHorizontal="true" />
+	<TextView android:textColor="2da1e5" android:gravity="0x1" android:id="false" android:background="r/f/cu.xml" android:layout_below="false" android:layout_centerHorizontal="true" style="resourceId:0x7f1001fc" />
+	<TextView android:textSize="12sp" android:textColor="80ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20dp" android:text="Ask the other person to show the QR code" android:maxLines="2" android:layout_below="false" android:layout_centerHorizontal="true" android:paddingStart="16dp" android:paddingEnd="16dp" />
+</RelativeLayout>

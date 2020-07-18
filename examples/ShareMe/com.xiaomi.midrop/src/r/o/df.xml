@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="114dp">
+	<com.xiaomi.midrop.view.ProfileImageView android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:layout_centerVertical="true" android:layout_marginStart="24dp" />
+	<ImageView android:id="false" android:layout_width="12dp" android:layout_height="12dp" android:src="r/a8/n.png" android:layout_centerVertical="true" android:layout_marginEnd="24dp" android:layout_alignParentEnd="true" />
+	<TextView android:textSize="16sp" android:textColor="000" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxWidth="140dp" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="13dp" android:layout_toEndOf="false" />
+	<View android:id="false" android:background="r/f/ge.xml" android:visibility="2" android:layout_width="285081unknown unit:0x21" android:layout_height="285081unknown unit:0x21" android:layout_alignTop="false" android:layout_marginStart="5dp" android:layout_toEndOf="false" />
+	<View android:id="false" android:background="f7f7f7" android:layout_width="-1" android:layout_height="6dp" android:layout_below="false" />
+</RelativeLayout>

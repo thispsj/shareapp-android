@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f7f7f7" android:layout_width="-1" android:layout_height="{2:16843499}" android:paddingStart="304742unknown unit:0x21" android:paddingEnd="304742unknown unit:0x21">
+	<RelativeLayout android:layout_gravity="0x800013" android:id="false" android:layout_width="40dp" android:layout_height="40dp">
+		<com.xiaomi.midrop.view.ProfileImageView android:id="false" android:layout_width="26dp" android:layout_height="26dp" android:layout_centerInParent="true" />
+		<View android:id="false" android:layout_marginTop="6dp" android:layout_marginEnd="6dp" android:layout_alignParentEnd="true" style="resourceId:0x7f1001e5" />
+	</RelativeLayout>
+	<TextView android:textAppearance="resourceId:0x7f10014d" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-1" />
+	<com.xiaomi.midrop.view.AutoPressedStyleImageView android:layout_gravity="0x800015" android:id="false" android:padding="11dp" android:visibility="2" style="resourceId:0x7f1001e6" />
+</FrameLayout>

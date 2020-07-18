@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="3451453unknown unit:0x21" android:layout_marginTop="204dp" android:src="r/a8/p6.webp" android:layout_centerHorizontal="true" />
+	<TextView android:textSize="18sp" android:textColor="ccffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4270653unknown unit:0x21" android:text="ShareMe" android:layout_below="false" android:layout_centerHorizontal="true" />
+	<TextView android:textSize="12sp" android:textColor="68ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="477dp" android:text="Share files with people nearby." android:layout_centerHorizontal="true" />
+	<TextView android:textSize="12sp" android:textColor="68ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:text="Send and receive at amazing speed." android:layout_below="false" android:layout_centerHorizontal="true" />
+</RelativeLayout>

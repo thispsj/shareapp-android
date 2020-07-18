@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="r/f/ej.xml" android:paddingTop="18dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+	<FrameLayout android:id="false" android:layout_width="42dp" android:layout_height="40dp" android:layout_centerHorizontal="true">
+		<ImageView android:layout_gravity="0x51" android:id="false" android:layout_width="40dp" android:layout_height="40dp" android:src="r/a8/p9.png" android:scaleType="6" />
+		<ImageView android:layout_gravity="0x800005" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="r/f/ei.xml" android:scaleType="7" />
+	</FrameLayout>
+	<TextView android:textSize="12sp" android:textColor="444444" android:ellipsize="3" android:id="false" android:layout_marginTop="304742unknown unit:0x21" android:layout_marginBottom="173670unknown unit:0x21" android:singleLine="true" android:layout_below="false" android:layout_centerHorizontal="true" android:paddingStart="2dp" android:paddingEnd="2dp" style="resourceId:0x7f1001fa" />
+	<TextView android:textSize="11sp" android:textColor="707070" android:ellipsize="4" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_below="false" android:layout_centerHorizontal="true" />
+</RelativeLayout>

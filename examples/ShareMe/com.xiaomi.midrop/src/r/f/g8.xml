@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.xiaomi.midrop">
+	<item android:state_selected="true" android:drawable="r/a8/b6.webp" />
+	<item android:state_selected="false">
+		<shape android:shape="1">
+			<solid android:color="resourceId:0x106000d" />
+			<stroke android:width="5872026unknown unit:0x31" android:color="26000" />
+			<size android:height="18dp" android:width="18dp" />
+		</shape>
+	</item>
+</selector>

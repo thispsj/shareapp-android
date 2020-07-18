@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+		<include android:id="false" layout="r/o/ft.xml" />
+		<com.xiaomi.midrop.view.TransferSpeedView android:id="false" android:layout_width="-1" android:layout_height="36dp" />
+		<View android:id="false" android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+		<RelativeLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<android.support.v7.widget.RecyclerView android:id="false" android:background="ffffff" android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingBottom="80dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+				<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="r/f/d6.xml" android:visibility="2" android:layout_width="-1" android:layout_height="39dp" android:layout_marginLeft="17dp" android:layout_marginRight="17dp" android:layout_marginBottom="547225unknown unit:0x21" android:text="Connect again" />
+					<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:src="r/f/g7.xml" android:layout_marginEnd="14dp" android:layout_alignParentEnd="true" />
+				</RelativeLayout>
+				<com.xiaomi.midrop.sender.ui.BottomBarView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="76dp" />
+			</LinearLayout>
+		</RelativeLayout>
+		<include android:id="false" layout="r/o/e7.xml" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="resourceId:0x106000b" android:paddingTop="56dp" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="38dp" android:src="r/a8/m5.webp" android:scaleType="1" />
+	<TextView android:textSize="15sp" android:textColor="d6000" android:gravity="0x11" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp" android:text="Ask the recipient to turn on ShareMe (Mi Drop) in the Notification shade." />
+	<TextView android:textSize="12sp" android:textColor="55000" android:gravity="0x11" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:text="After that, scan their QR code and start sending files." />
+</LinearLayout>

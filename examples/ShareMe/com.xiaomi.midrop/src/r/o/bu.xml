@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800003" android:paddingTop="16dp" android:paddingBottom="809369unknown unit:0x21" android:layout_width="-1" android:layout_height="-1" android:paddingStart="1209139unknown unit:0x21" android:paddingEnd="1209139unknown unit:0x21">
+	<CheckBox android:textSize="14sp" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:button="r/f/da.xml" android:text="Don&apos;t show again" android:paddingStart="7dp" />
+</LinearLayout>

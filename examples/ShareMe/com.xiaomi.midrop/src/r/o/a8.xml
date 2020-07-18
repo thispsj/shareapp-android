@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_alignParentTop="true">
+		<LinearLayout android:orientation="1" android:background="f8f8f8" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:background="ffffff" android:paddingTop="{2:2130968580}" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<ImageView android:layout_width="78dp" android:layout_height="78dp" android:src="r/a8/midrop.png" android:scaleType="6" />
+					<TextView android:textSize="16sp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12dp" android:text="ShareMe" />
+					<TextView android:textSize="13sp" android:textColor="99000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="24dp" android:text="Permissions" />
+					<View android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:alpha="{4:1056964608}" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp">
+					<TextView android:textSize="12sp" android:textColor="4c000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="271974unknown unit:0x21" android:layout_marginBottom="8dp" android:text="Mandatory permissions" android:layout_marginStart="24dp" />
+					<View android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:alpha="{4:1056964608}" android:layout_marginStart="24dp" />
+					<LinearLayout android:orientation="1" android:background="r/f/f0.xml" android:paddingTop="15dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="74dp" android:layout_marginStart="24dp">
+						<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="b2000" android:layout_width="-2" android:layout_height="-2" android:text="Storage" />
+						<TextView android:textSize="12sp" android:textColor="4c000" android:layout_width="-2" android:layout_height="-2" android:text="For accessing files on your device" />
+					</LinearLayout>
+					<View android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:alpha="{4:1056964608}" android:layout_marginStart="24dp" />
+					<LinearLayout android:orientation="1" android:background="r/f/f0.xml" android:paddingTop="15dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="74dp" android:layout_marginStart="24dp">
+						<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="b2000" android:layout_width="-2" android:layout_height="-2" android:text="Location" />
+						<TextView android:textSize="12sp" android:textColor="4c000" android:layout_width="-2" android:layout_height="-2" android:text="For finding devices nearby" />
+					</LinearLayout>
+					<View android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:alpha="{4:1056964608}" android:layout_marginStart="24dp" />
+					<LinearLayout android:orientation="1" android:background="r/f/f0.xml" android:paddingTop="15dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="74dp" android:layout_marginStart="24dp">
+						<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="b2000" android:layout_width="-2" android:layout_height="-2" android:text="Phone" />
+						<TextView android:textSize="12sp" android:textColor="4c000" android:layout_width="-2" android:layout_height="-2" android:text="For identifying devices involved in a transfer" />
+					</LinearLayout>
+					<View android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:alpha="{4:1056964608}" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+				<View android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:alpha="{4:1056964608}" />
+				<TextView android:textSize="12sp" android:textColor="4c000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="271974unknown unit:0x21" android:layout_marginBottom="8dp" android:text="Optional permissions" android:layout_marginStart="24dp" />
+				<View android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:alpha="{4:1056964608}" android:layout_marginStart="24dp" />
+				<LinearLayout android:orientation="1" android:background="r/f/f0.xml" android:paddingTop="15dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="74dp" android:layout_marginStart="24dp">
+					<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="b2000" android:layout_width="-2" android:layout_height="-2" android:text="Contacts" />
+					<TextView android:textSize="12sp" android:textColor="4c000" android:layout_width="-2" android:layout_height="-2" android:text="For transferring contacts" />
+				</LinearLayout>
+				<View android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:alpha="{4:1056964608}" android:layout_marginStart="24dp" />
+				<LinearLayout android:orientation="1" android:background="r/f/f0.xml" android:paddingTop="15dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="74dp" android:layout_marginStart="24dp">
+					<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="b2000" android:layout_width="-2" android:layout_height="-2" android:text="Camera" />
+					<TextView android:textSize="12sp" android:textColor="4c000" android:layout_width="-2" android:layout_height="-2" android:text="For scanning QR codes" />
+				</LinearLayout>
+				<View android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:alpha="{4:1056964608}" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="76dp" android:layout_alignParentBottom="true">
+		<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:background="r/f/cq.xml" android:layout_width="-1" android:layout_height="42dp" android:layout_marginTop="13dp" android:layout_marginBottom="20dp" android:text="Got it" android:onClick="onClick" android:fontFamily="sans-serif-medium" android:layout_marginStart="26dp" android:layout_marginEnd="26dp" />
+	</LinearLayout>
+</RelativeLayout>

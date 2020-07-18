@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+	<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<TextView android:textSize="612761unknown unit:0x22" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="271974unknown unit:0x21" android:text="Wi-Fi status" android:singleLine="true" style="resourceId:0x7f1000f5" />
+		<TextView android:textColor="99707070" android:id="false" android:layout_marginTop="271974unknown unit:0x21" style="resourceId:0x7f1000b9" />
+	</LinearLayout>
+</LinearLayout>

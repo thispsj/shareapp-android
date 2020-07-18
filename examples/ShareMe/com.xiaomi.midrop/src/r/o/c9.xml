@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f7f7f7" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+	<TextView android:textSize="12sp" android:textColor="80000" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Couldn&apos;t get info.
+Check your network settings and try again." android:layout_centerInParent="true" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" />
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="416153unknown unit:0x21" android:src="r/a8/qi.webp" android:layout_above="false" android:layout_centerHorizontal="true" />
+	<TextView android:textSize="416153unknown unit:0x22" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="r/f/ev.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Refresh" android:layout_below="false" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="r/f/d1.xml" android:layout_width="326dp" android:layout_height="-2" android:layout_marginBottom="14dp" android:minHeight="39dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+		<TextView android:textSize="14sp" android:textColor="444444" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Feedback" android:maxLines="2" android:drawablePadding="8dp" android:drawableStart="r/a8/z.png" />
+	</LinearLayout>
+</RelativeLayout>

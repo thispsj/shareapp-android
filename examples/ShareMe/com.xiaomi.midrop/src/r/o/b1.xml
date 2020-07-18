@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<include android:id="false" layout="r/o/b0.xml" />
+		<include android:id="false" layout="r/o/b0.xml" />
+		<include android:id="false" layout="r/o/b0.xml" />
+		<include android:id="false" layout="r/o/b0.xml" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<include android:id="false" layout="r/o/b0.xml" />
+		<include android:id="false" layout="r/o/b0.xml" />
+		<include android:id="false" layout="r/o/b0.xml" />
+		<include android:id="false" layout="r/o/b0.xml" />
+	</LinearLayout>
+</LinearLayout>

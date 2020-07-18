@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<com.xiaomi.midrop.view.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+		<ImageView android:layout_gravity="0x10" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:src="r/f/ga.xml" />
+		<ImageView android:layout_gravity="0x10" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:src="r/f/ga.xml" />
+		<ImageView android:layout_gravity="0x10" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:src="r/f/ga.xml" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" app:cardCornerRadius="0dp">
+	<RelativeLayout android:background="r/f/f0.xml" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:scaleType="6" android:layout_marginStart="12dp" />
+		<TextView android:id="false" android:layout_marginTop="28dp" android:layout_marginStart="17dp" android:layout_marginEnd="50dp" android:layout_toEndOf="false" style="resourceId:0x7f1001fa" />
+		<TextView android:textColor="707070" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="52dp" android:layout_alignStart="false" />
+		<ImageView android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="resourceId:0x7f1000f2" />
+	</RelativeLayout>
+</android.support.v7.widget.CardView>

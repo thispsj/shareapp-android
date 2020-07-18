@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="ffffff" android:focusable="true" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2" android:layout_above="false" android:layout_alignParentTop="true" android:fadeScrollbars="false">
+		<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2">
+			<com.xiaomi.midrop.view.ProfileImageView android:id="false" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="27dp" />
+			<EditText android:textSize="14sp" android:textColor="000" android:textColorHint="68000" android:gravity="0x11" android:id="false" android:background="r/f/ed.xml" android:focusable="true" android:layout_width="-2" android:layout_height="1287782unknown unit:0x21" android:layout_marginTop="27dp" android:minWidth="213dp" android:hint="Enter your nickname" android:lines="1" android:maxLength="15" android:inputType="0x1" android:paddingStart="547225unknown unit:0x21" android:paddingEnd="547225unknown unit:0x21" />
+			<TextView android:textSize="14sp" android:textColor="707070" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:text="Nickname helps other people to spot you faster." />
+			<android.support.v7.widget.RecyclerView android:layout_gravity="0x1" android:id="false" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="240dp" android:layout_marginTop="10dp" />
+		</LinearLayout>
+	</ScrollView>
+	<TextView android:textSize="13sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="r/f/g4.xml" android:layout_width="-1" android:layout_height="43dp" android:layout_marginTop="8dp" android:layout_marginBottom="27dp" android:text="Next" android:layout_alignParentBottom="true" android:layout_marginStart="27dp" android:layout_marginEnd="27dp" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.miftp.view.dialog.DialogParentPanel xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:ellipsize="3" android:layout_gravity="0x11" android:id="false" android:paddingTop="27dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:drawablePadding="10dp" android:paddingStart="40dp" android:paddingEnd="40dp" style="{2:16842843}" />
+	</FrameLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:paddingTop="18dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+		<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-2" android:overScrollMode="1">
+			<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:paddingStart="40dp" android:paddingEnd="40dp" style="resourceId:0x7f100142" />
+		</ScrollView>
+	</LinearLayout>
+	<FrameLayout android:id="false" android:paddingTop="33dp" android:layout_width="-1" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:paddingStart="40dp" android:paddingEnd="40dp">
+		<FrameLayout android:id="resourceId:0x102002b" android:layout_width="-1" android:layout_height="-2" />
+	</FrameLayout>
+	<FrameLayout android:id="false" android:paddingTop="435814unknown unit:0x21" android:paddingBottom="435814unknown unit:0x21" android:layout_width="-1" android:layout_height="-2" android:paddingStart="1123942unknown unit:0x21" android:paddingEnd="1123942unknown unit:0x21">
+		<CheckBox android:id="resourceId:0x1020001" android:layout_width="-2" android:layout_height="-2" android:button="resourceId:0x0" android:drawableStart="r/f/cz.xml" style="resourceId:0x7f100142" />
+	</FrameLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" android:measureWithLargestChild="true" style="{2:16843566}">
+			<com.xiaomi.miftp.view.dialog.GroupButton android:gravity="0x11" android:id="resourceId:0x102001a" android:layout_width="0dp" android:layout_height="-2" android:maxLines="2" android:layout_weight="{4:1065353216}" style="{2:16843567}" />
+			<com.xiaomi.miftp.view.dialog.GroupButton android:gravity="0x11" android:id="resourceId:0x102001b" android:layout_width="0dp" android:layout_height="-2" android:maxLines="2" android:layout_weight="{4:1065353216}" style="{2:16843567}" />
+			<com.xiaomi.miftp.view.dialog.GroupButton android:gravity="0x11" android:id="resourceId:0x1020019" android:layout_width="0dp" android:layout_height="-2" android:maxLines="2" android:layout_weight="{4:1065353216}" style="{2:2130968654}" />
+		</LinearLayout>
+	</LinearLayout>
+</com.xiaomi.miftp.view.dialog.DialogParentPanel>

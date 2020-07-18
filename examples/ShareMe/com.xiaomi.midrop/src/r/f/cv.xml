@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="true">
+	<item android:state_first="true" android:state_pressed="true" android:drawable="r/a8/kz.9.png" />
+	<item android:state_first="true" android:drawable="r/a8/ky.9.png" />
+	<item android:state_middle="true" android:state_pressed="true" android:drawable="r/a8/l3.9.png" />
+	<item android:state_middle="true" android:drawable="r/a8/l2.9.png" />
+	<item android:state_last="true" android:state_pressed="true" android:drawable="r/a8/l1.9.png" />
+	<item android:state_last="true" android:drawable="r/a8/l0.9.png" />
+	<item android:state_single="true" android:state_pressed="true" android:drawable="r/a8/l5.9.png" />
+	<item android:state_single="true" android:drawable="r/a8/l4.9.png" />
+	<item android:state_pressed="true" android:drawable="r/a8/l5.9.png" />
+	<item android:drawable="r/a8/l4.9.png" />
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="308dp" android:layout_marginTop="3615293unknown unit:0x21" android:src="r/a8/p7.webp" android:layout_centerHorizontal="true" />
+	<TextView android:textSize="546242unknown unit:0x22" android:textColor="ccffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="470dp" android:text="Tap to send" android:layout_centerHorizontal="true" />
+	<TextView android:textSize="12sp" android:textColor="68ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="503dp" android:text="Select files and tap &quot;Send&quot;." android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="fff8f8f8" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v7.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="44dp" android:paddingStart="16dp">
+			<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="r/a8/ku.webp" android:paddingEnd="8dp" />
+			<TextView android:id="false" style="resourceId:0x7f1001f7" />
+			<android.support.v7.widget.RecyclerView android:layout_gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		</LinearLayout>
+		<android.support.v7.widget.RecyclerView android:id="false" android:background="ffffff" android:paddingBottom="0dp" android:scrollbars="0x0" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="44dp" />
+		<View android:background="d9d9d9" android:layout_width="-1" android:layout_height="1px" android:layout_marginTop="44dp" />
+	</FrameLayout>
+	<include android:visibility="0" android:layout_width="-1" android:layout_height="-1" layout="r/o/c0.xml" />
+</FrameLayout>

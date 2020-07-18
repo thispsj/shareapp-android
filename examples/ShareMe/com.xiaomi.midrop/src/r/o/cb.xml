@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<com.xiaomi.midrop.view.tablayout.SlidingTabLayout android:id="false" android:layout_width="-2" android:layout_height="39dp" android:layout_centerHorizontal="true" app:tl_indicator_color="resourceId:0x106000d" app:tl_indicator_width_equal_title="false" app:tl_textBold="2" app:tl_textSelectColor="091e9" app:tl_textUnselectColor="80000" app:tl_textsize="15sp" />
+	<View android:id="false" android:background="c1c2c2" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:layout_below="false" />
+	<com.xiaomi.midrop.view.ScrollUnableViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" />
+</RelativeLayout>

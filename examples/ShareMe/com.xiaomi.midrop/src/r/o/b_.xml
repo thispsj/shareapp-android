@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-2" android:layout_height="-2" app:cardBackgroundColor="resourceId:0x106000d" app:cardElevation="10dp">
+	<LinearLayout android:gravity="0x1" android:orientation="1" android:background="r/f/db.xml" android:layout_width="600dp" android:layout_height="-2">
+		<RelativeLayout android:orientation="0" android:background="r/f/dd.xml" android:layout_width="-1" android:layout_height="110dp">
+			<FrameLayout android:layout_width="-1" android:layout_height="-2">
+				<android.support.v7.widget.AppCompatImageView android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="12dp" android:layout_marginTop="11dp" android:layout_marginBottom="11dp" android:scaleType="1" android:adjustViewBounds="false" android:layout_marginStart="12dp" app:srcCompat="r/f/dl.xml" />
+			</FrameLayout>
+			<TextView android:textSize="52sp" android:typeface="1" android:textColor="3c6499" android:gravity="0x11" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" android:fontFamily="sans-serif-light" />
+			<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="0dp" android:layout_alignTop="false" android:layout_alignBottom="false" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+		</RelativeLayout>
+		<TextView android:id="false" android:layout_marginLeft="90dp" android:layout_marginTop="18dp" android:layout_marginRight="90dp" android:text="To connect your account, open the Facebook app on your mobile device and check for notifications." android:layout_marginStart="90dp" android:layout_marginEnd="90dp" style="resourceId:0x7f1001eb" />
+		<TextView android:textStyle="0x1" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_marginTop="12dp" android:text="- OR -" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" style="resourceId:0x7f1001eb" />
+		<TextView android:id="false" android:layout_marginTop="12dp" style="resourceId:0x7f1001eb" />
+		<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="17dp" android:layout_marginBottom="17dp">
+			<Button android:textSize="18sp" android:typeface="1" android:textStyle="0x1" android:textColor="90949c" android:layout_gravity="0x1" android:id="false" android:background="r/f/dc.xml" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:minWidth="200dp" android:text="resourceId:0x1040000" android:textAllCaps="true" android:fontFamily="sans-serif-medium" />
+		</FrameLayout>
+	</LinearLayout>
+</android.support.v7.widget.CardView>

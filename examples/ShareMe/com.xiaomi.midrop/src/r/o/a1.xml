@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:layout_gravity="0x1" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="60dp" android:src="r/a8/midrop.png" android:scaleType="6" />
+	<TextView android:textSize="16sp" android:textColor="000" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="ShareMe" />
+	<TextView android:textSize="12sp" android:textColor="7f7f7f" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1dp" android:layout_marginBottom="50dp" />
+</LinearLayout>

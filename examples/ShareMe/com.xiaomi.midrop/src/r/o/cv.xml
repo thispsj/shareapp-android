@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="90dp" android:layout_height="-2">
+	<FrameLayout android:layout_gravity="0x1" android:layout_width="75dp" android:layout_height="75dp">
+		<FrameLayout android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2">
+			<com.xiaomi.midrop.view.ProfileImageView android:layout_gravity="0x11" android:id="false" android:layout_width="60dp" android:layout_height="60dp" />
+			<ImageView android:layout_gravity="0x800035" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="108134unknown unit:0x21" android:src="r/a8/nv.webp" android:layout_marginEnd="108134unknown unit:0x21" />
+		</FrameLayout>
+		<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="60dp" android:layout_height="60dp" />
+	</FrameLayout>
+	<TextView android:textSize="11sp" android:textColor="444444" android:ellipsize="3" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" android:fontFamily="sans-serif-medium" />
+	<include android:layout_gravity="0x51" android:layout_width="-2" android:layout_height="-2" layout="r/o/fu.xml" />
+</LinearLayout>

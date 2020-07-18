@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="{2:16843499}">
+	<com.xiaomi.midrop.view.AutoPressedStyleImageView android:id="false" android:src="r/a8/n8.webp" android:layout_centerVertical="true" android:layout_marginStart="304742unknown unit:0x21" style="resourceId:0x7f1001e6" />
+	<TextView android:textAppearance="resourceId:0x7f10014d" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" android:layout_toEndOf="false" />
+	<View android:id="false" android:background="19000" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:layout_alignParentBottom="true" />
+</RelativeLayout>

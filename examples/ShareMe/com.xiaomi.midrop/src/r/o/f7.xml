@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="r/f/ej.xml" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:layout_marginStart="16dp">
+		<FrameLayout android:id="false" android:background="r/f/ex.xml" android:padding="2516583unknown unit:0x31" android:layout_width="50dp" android:layout_height="50dp">
+			<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+			<RelativeLayout android:layout_gravity="0x800053" android:id="false" android:layout_width="-1" android:layout_height="20dp">
+				<View android:background="r/a8/qh.webp" android:layout_width="-1" android:layout_height="-1" />
+				<ImageView android:layout_width="12dp" android:layout_height="12dp" android:src="r/a8/mk.webp" android:layout_centerVertical="true" android:layout_marginStart="3dp" />
+			</RelativeLayout>
+		</FrameLayout>
+		<LinearLayout android:gravity="0x10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="14sp" android:textColor="444444" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" android:layout_marginStart="16dp" />
+			<TextView android:textSize="12sp" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:maxLines="1" android:layout_marginStart="16dp" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:id="false" android:padding="10dp" android:layout_width="50dp" android:layout_height="50dp">
+			<ImageView android:id="false" style="resourceId:0x7f1000f1" />
+		</LinearLayout>
+	</LinearLayout>
+	<View android:id="false" android:background="d9d9d9" android:layout_width="-1" android:layout_height="1px" android:layout_below="false" />
+</RelativeLayout>

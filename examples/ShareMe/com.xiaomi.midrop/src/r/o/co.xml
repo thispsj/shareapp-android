@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" app:cardCornerRadius="0dp">
+	<LinearLayout android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+		<include android:id="false" layout="r/o/cp.xml" />
+		<include android:id="false" layout="r/o/cp.xml" />
+		<include android:id="false" layout="r/o/cp.xml" />
+	</LinearLayout>
+</android.support.v7.widget.CardView>

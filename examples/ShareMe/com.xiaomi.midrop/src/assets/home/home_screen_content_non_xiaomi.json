@@ -1,0 +1,52 @@
+{
+  "home_screen":[
+    {
+      "title":"Received files",
+      "icon":"ic_received_files",
+      "event":"click_received_files_HP_new",
+      "action":{
+        "package":"",
+        "activity":"",
+        "launch_action1":"com.xiaomi.midrop.RECEIVED_FILE",
+        "launch_action2":"",
+        "uri":""
+      }
+    },
+    {
+      "title":"Share to PC",
+      "icon":"ic_share_to_pc",
+      "event":"click_Share_PC_HP_new",
+      "action":{
+        "package":"",
+        "activity":"",
+        "launch_action1":"com.xiaomi.midrop.action.FTP",
+        "launch_action2":"",
+        "uri":""
+      }
+    },
+    {
+      "title":"Webshare",
+      "icon":"ic_web_share",
+      "event":"click_webshare_HP_new",
+      "action":{
+        "package":"",
+        "activity":"",
+        "launch_action1":"com.xiaomi.midrop.WEB_SHARE",
+        "launch_action2":"",
+        "uri":""
+      }
+    },
+    {
+      "title":"Invite",
+      "icon":"ic_invite",
+      "event":"click_invite_HP_new",
+      "action":{
+        "package":"",
+        "activity":"",
+        "launch_action1":"com.xiaomi.midrop.SHARE_ACTIVITY",
+        "launch_action2":"",
+        "uri":""
+      }
+    }
+  ]
+}

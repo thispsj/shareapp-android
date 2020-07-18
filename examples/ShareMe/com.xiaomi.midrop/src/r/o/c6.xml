@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="fafafa" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v7.widget.RecyclerView android:id="false" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" />
+	<include layout="r/o/c0.xml" />
+	<include layout="r/o/dy.xml" />
+	<ViewStub android:id="false" android:layout="r/o/gf.xml" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

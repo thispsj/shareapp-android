@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="r/f/e6.xml" android:paddingTop="27dp" android:layout_width="-1" android:layout_height="-1" android:layout_margin="304742unknown unit:0x21">
+	<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="15sp" android:textStyle="0x1" android:textColor="000" android:gravity="0x800003" android:id="false" android:paddingLeft="1209139unknown unit:0x21" android:paddingRight="1209139unknown unit:0x21" android:paddingBottom="743833unknown unit:0x21" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="481689unknown unit:0x22" android:textColor="000" android:gravity="0x800003" android:id="false" android:paddingLeft="1209139unknown unit:0x21" android:paddingRight="1209139unknown unit:0x21" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true" android:alpha="{4:1061997773}" />
+	</RelativeLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	<View android:id="false" android:background="26000" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" />
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="a6000" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="Cancel" android:layout_weight="{4:1065353216}" />
+		<View android:id="false" android:background="26000" android:layout_width="2516583unknown unit:0x31" android:layout_height="-1" />
+		<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="r/n/dd.xml" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="0dp" android:layout_height="-2" android:text="OK" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+</LinearLayout>

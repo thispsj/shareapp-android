@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<include layout="r/o/f6.xml" />
+	<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:animateLayoutChanges="true">
+		<include android:visibility="2" layout="r/o/fa.xml" />
+		<include layout="r/o/f9.xml" />
+		<ViewStub android:id="false" android:layout="r/o/fb.xml" android:layout_width="-1" android:layout_height="-1" />
+	</FrameLayout>
+	<include layout="r/o/e7.xml" />
+</LinearLayout>

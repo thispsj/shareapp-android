@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f7f7f7" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x1" android:orientation="1" android:background="ffffff" android:paddingTop="16dp" android:paddingBottom="874905unknown unit:0x21" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp">
+		<TextView android:textSize="14sp" android:textColor="000" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Scan this QR code to download ShareMe from Google Play" android:layout_marginStart="50dp" android:layout_marginEnd="50dp" />
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:background="r/f/gf.xml" android:padding="219545unknown unit:0x21" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp">
+			<ImageView android:layout_width="198dp" android:layout_height="198dp" android:src="r/a8/os.webp" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="r/f/ha.xml" android:padding="12dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="19dp">
+	<ImageView android:id="false" android:layout_width="37dp" android:layout_height="37dp" android:src="r/a8/qf.webp" android:layout_alignParentStart="true" />
+	<TextView android:textSize="13sp" android:textColor="000" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Check for P2P updates" android:maxLines="2" android:layout_marginStart="7dp" android:layout_marginEnd="86dp" android:layout_toEndOf="false" />
+	<TextView android:textSize="11sp" android:textColor="99000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:text="Get app update packages during this transfer as well" android:maxLines="2" android:layout_below="false" android:layout_marginStart="7dp" android:layout_marginEnd="86dp" android:layout_toEndOf="false" />
+	<TextView android:textSize="11sp" android:textColor="ffffff" android:ellipsize="3" android:gravity="0x11" android:id="false" android:background="r/f/h_.xml" android:visibility="0" android:layout_width="67dp" android:layout_height="-2" android:layout_marginTop="6dp" android:minHeight="28dp" android:text="Check" android:maxLines="2" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

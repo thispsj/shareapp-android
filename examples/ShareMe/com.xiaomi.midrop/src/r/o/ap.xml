@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:layout_width="-2" android:layout_height="-2" android:src="r/a8/jy.png" android:contentDescription="resourceId:0x0" />
+	<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:fontFamily="sans-serif" />
+	<TextView android:label="ShareMe" android:textSize="15sp" android:textColor="60000" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3dp" android:text="Previously Mi Drop" android:fontFamily="roboto-regular" android:layout_marginStart="27dp" android:layout_marginEnd="27dp" />
+</LinearLayout>

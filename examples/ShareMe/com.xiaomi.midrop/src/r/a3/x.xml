@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="resourceId:0x10a0005">
+	<translate android:duration="resourceId:0x10e0000" android:fromYDelta="{4:0}" android:toYDelta="2.2E-44%p" />
+	<alpha android:duration="resourceId:0x10e0000" android:fromAlpha="{4:1065353216}" android:toAlpha="{4:0}" />
+</set>

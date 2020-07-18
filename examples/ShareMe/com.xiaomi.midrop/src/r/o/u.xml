@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v7.widget.ViewStubCompat android:id="false" android:layout="r/o/e.xml" android:inflatedId="false" android:layout_width="-1" android:layout_height="-2" />
+	<include layout="r/o/t.xml" />
+</android.support.v7.widget.FitWindowsLinearLayout>

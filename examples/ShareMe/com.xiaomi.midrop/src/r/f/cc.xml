@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="true">
+	<item android:state_pressed="true" android:drawable="r/a8/b1.png" />
+	<item android:state_selected="true" android:drawable="r/a8/b1.png" />
+	<item android:drawable="r/a8/b0.png" />
+</selector>

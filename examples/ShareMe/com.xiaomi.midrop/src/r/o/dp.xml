@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingBottom="874905unknown unit:0x21" android:layout_width="-1" android:layout_height="-2">
+	<View android:background="efefef" android:layout_width="-1" android:layout_height="7dp" />
+	<TextView android:textSize="12sp" android:textColor="80000" android:id="false" android:paddingTop="285081unknown unit:0x21" android:layout_width="-2" android:layout_height="-2" android:text="Report" android:layout_marginStart="24dp" />
+	<View android:background="26000" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" android:layout_marginTop="285081unknown unit:0x21" android:layout_marginStart="24dp" />
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="730726unknown unit:0x21">
+		<LinearLayout android:gravity="0x1" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:gravity="0x51" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<com.xiaomi.midrop.view.NumberAnimTextView android:textSize="24sp" android:textColor="0a4eb" android:gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<TextView android:textSize="14sp" android:textColor="000" android:gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2dp" android:text="MB/s" android:layout_marginStart="2dp" />
+			</LinearLayout>
+			<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="80000" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="186777unknown unit:0x21" android:text="Max speed this time" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x1" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:gravity="0x51" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<com.xiaomi.midrop.view.NumberAnimTextView android:textSize="24sp" android:textColor="0a4eb" android:gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<TextView android:textSize="14sp" android:textColor="000" android:gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2dp" android:text="MB" android:layout_marginStart="2dp" />
+			</LinearLayout>
+			<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="80000" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="186777unknown unit:0x21" android:text="Max speed this time" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="25dp">
+		<View android:background="26000" android:layout_width="50dp" android:layout_height="2516583unknown unit:0x31" android:layout_marginStart="24dp" />
+		<TextView android:textSize="12sp" android:textStyle="0x0" android:textColor="80000" android:gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:maxWidth="240dp" android:text="Share with friends" android:maxLines="2" android:paddingStart="10dp" android:paddingEnd="10dp" />
+		<View android:background="26000" android:layout_width="50dp" android:layout_height="2516583unknown unit:0x31" android:layout_marginEnd="24dp" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="r/a8/mz.webp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="r/a8/mv.webp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="r/a8/mx.webp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+	</LinearLayout>
+	<TextView android:textColor="r/n/h_.xml" android:gravity="0x11" android:id="false" android:background="r/f/g2.xml" android:visibility="2" android:layout_width="-1" android:layout_height="1399193unknown unit:0x21" android:layout_marginTop="18dp" android:text="Share with friends" android:layout_marginStart="874905unknown unit:0x21" android:layout_marginEnd="874905unknown unit:0x21" />
+</LinearLayout>

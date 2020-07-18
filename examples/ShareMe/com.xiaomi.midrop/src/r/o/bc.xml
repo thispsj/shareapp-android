@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+		<com.xiaomi.midrop.view.ProfileImageView android:id="false" android:layout_width="54dp" android:layout_height="54dp" />
+		<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:ellipsize="2" android:gravity="0x800003" android:layout_gravity="0x10" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:maxLines="2" android:layout_weight="{4:1065353216}" android:textDirection="5" android:layout_marginStart="10dp" />
+	</LinearLayout>
+	<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="000" android:ellipsize="2" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5dp" android:textDirection="5" />
+	<TextView android:textSize="12sp" android:textColor="000" android:ellipsize="2" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="27dp" android:text="Before receiving items, make sure this connection ID is also displayed on the other device." android:textDirection="5" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" />
+	<TextView android:textSize="14sp" android:textColor="55000" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="150732unknown unit:0x21" android:layout_marginBottom="10dp" android:text="Don&apos;t turn off Wi-Fi during ongoing transfers." />
+</LinearLayout>
