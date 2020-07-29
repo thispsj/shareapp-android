@@ -8,6 +8,12 @@ add_library(utils
 add_library(afmod
         SHARED
         src/main/cpp/afmod.cpp
+        src/main/cpp/decoder.cpp
+        src/main/cpp/decoder.h
+        src/main/cpp/extstrfuns.cpp
+        src/main/cpp/extstrfuns.h
+        src/main/cpp/simpled.cpp
+        src/main/cpp/simpled.h
 )
 set_target_properties(utils
                       PROPERTIES CMakeLists.txt
