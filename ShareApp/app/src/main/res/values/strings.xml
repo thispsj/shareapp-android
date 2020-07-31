@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ShareApp</string>
+    <string name="alpha_txtres_Welcometxt">Welcome:</string>
+    <string name="alpha_textres_guide1">Tap Send Or Receive.</string>
+    <string name="alpha_textres_btn_send">Send</string>
+    <string name="alpha_textres_btn_receive">Receive</string>
 </resources>

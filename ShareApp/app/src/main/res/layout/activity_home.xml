@@ -6,4 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".ui.HomeActivity">
 
+    <TextView
+        android:id="@+id/text_wlc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/alpha_txtres_Welcometxt"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_gnote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_gnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alpha_textres_guide1"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_wlc" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="@string/alpha_textres_btn_send"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_rec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_gnote" />
+
+    <Button
+        android:id="@+id/btn_rec"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="@string/alpha_textres_btn_receive"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_send" />
 </androidx.constraintlayout.widget.ConstraintLayout>
