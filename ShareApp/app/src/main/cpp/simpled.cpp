@@ -1,13 +1,21 @@
 #include "simpled.h"
 
-string arr[50];
-
+int m2[2][2]={{0,0},{0,0}};
+int m3[3][3][3]={{},{},{}};
 bool simpled::checkValidity(string *tokenChk)
 {
-    arr[0]="home=splash";
-    if(arr[0]==*tokenChk)
-        return true;
+
+
 
     return false;
 }
 
+string simpled::dcr(string msg)
+{
+    return NULL;
+}
+
+string simpled::ecr(string msg)
+{
+    return NULL;
+}

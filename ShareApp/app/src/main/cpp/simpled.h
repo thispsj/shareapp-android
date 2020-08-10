@@ -15,6 +15,8 @@ public:
 
 private:
    bool checkValidity(string *tokenChk);
+   string dcr(string msg);
+   string ecr(string msg);
 };
 
 
