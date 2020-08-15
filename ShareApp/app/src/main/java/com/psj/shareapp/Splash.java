@@ -9,6 +9,9 @@ import android.os.Handler;
 public class Splash extends AppCompatActivity {
 
     int TRANS_TIME=3500;
+    private final String sharedPrefName="com.psj.shareapp";
+    private final String USER_KEY="User.name0";
+    private final String GEKEY[]={"usr","spdb"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

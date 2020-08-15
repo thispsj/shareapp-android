@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">ShareApp</string>
-    <string name="alpha_txtres_Welcometxt">Welcome:</string>
+    <string name="alpha_app_name_split_1">Share</string>
+    <string name="alpha_app_name_split_2">App</string>
+    <string name="alpha_txtres_Welcometxt">Welcome %s</string>
     <string name="alpha_textres_guide1">Tap Send Or Receive.</string>
     <string name="alpha_textres_btn_send">Send</string>
     <string name="alpha_textres_btn_receive">Receive</string>
+    <string name="alpha_ruser_welcome">Welcome to <b>ShareApp</b>! \nPlease select a username.</string>
+    <string name="alpha_username_et">Your Username</string>
+    <string name="alpha_btn_go">Let\'s Go!</string>
+    <string name="alpha_usn_na">Username Not Allowed</string>
+    <string name="alpha_gps_disabled">GPS is required for sending files on phones having Android 6.0+. \nPress\"Enable\" to enable GPS.</string>
 </resources>
