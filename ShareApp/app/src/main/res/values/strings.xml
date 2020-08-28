@@ -11,4 +11,6 @@
     <string name="alpha_btn_go">Let\'s Go!</string>
     <string name="alpha_usn_na">Username Not Allowed</string>
     <string name="alpha_gps_disabled">GPS is required for sending files on phones having Android 6.0+. \nPress\"Enable\" to enable GPS.</string>
+    <string name="alpha_gps_snackbar">Please enable GPS to send.</string>
+    <string name="alpha_enable">Enable</string>
 </resources>

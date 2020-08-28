@@ -9,24 +9,26 @@ import android.location.LocationManager;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.provider.Settings;
+import android.util.Base64;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 
 import com.psj.shareapp.R;
 
+import java.util.Collections;
 import java.util.List;
 
 public class WiFiUtils {
 
+    private Context context;
+    public WiFiUtils(Context context) { this.context=context;}
 
-
-    private static final long SCAN_TIMEOUT=30000;
-
-    public static String[] doWifiScan(Context context)
+    public String[] doWifiScan()
     {
         List<ScanResult> resultList;
-        final boolean scanFlag[]=new boolean[1];
+        String[] ssids;
+        final boolean[] scanFlag =new boolean[1];
         final WifiManager wifiMan=(WifiManager)context.getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         BroadcastReceiver getScan=new BroadcastReceiver() {
             @Override
@@ -42,15 +44,25 @@ public class WiFiUtils {
 
 
         boolean scanComplete=wifiMan.startScan();
-        if (!scanComplete)
+        if (!scanComplete||!scanFlag[0])
             resultList=scanFailed(wifiMan);
         else
             resultList=scanOver(wifiMan);
-        return null;
+
+        ssids=new String[resultList.size()+1];
+        int i=0;
+
+        for (ScanResult s:resultList)
+        {
+            ssids[i]=s.SSID;
+            i++;
+        }
+        ssids[ssids.length-1]=Long.toString(System.currentTimeMillis());
+        return ssids;
     }
 
     @RequiresApi(23)
-    private boolean checkGpsEnabled(final Context context)
+    public boolean checkGpsEnabled()
     {
         LocationManager locationManager=(LocationManager)context.getSystemService(Context.LOCATION_SERVICE);
         if(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) return true;
@@ -70,26 +82,42 @@ public class WiFiUtils {
           final AlertDialog alertDialog=builder.create();
           alertDialog.show();
         }
-        return false;
+
+        return locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
     }
 
     private static List<ScanResult> scanOver(WifiManager wifiManager)
     {
         List<ScanResult> scanResults=wifiManager.getScanResults();
-        List<ScanResult> finalResults;
+        List<ScanResult> finalResults=Collections.emptyList();
         ScanResult result;
         for (int i=0;i<scanResults.size();i++)
         {
             result=scanResults.get(i);
-
+            String wName=result.SSID;
+            if(wName.length()>10) {
+                if (wName.substring(0, 10).equalsIgnoreCase("droidshare")) finalResults.add(result);
+                else if(new String(Base64.decode(wName,Base64.DEFAULT)).endsWith("defsh")) finalResults.add(result);
+            }
         }
-        return null;
+        return finalResults;
     }
 
     private static List<ScanResult> scanFailed(WifiManager wifiManager)
     {
         List<ScanResult> previousScanResults=wifiManager.getScanResults();
-        return null;
+        List<ScanResult> finalResults=Collections.emptyList();
+        ScanResult result;
+        for (int i=0;i<previousScanResults.size();i++)
+        {
+            result=previousScanResults.get(i);
+            String wName=result.SSID;
+            if(wName.length()>10) {
+                if (wName.substring(0, 10).equalsIgnoreCase("droidshare")) finalResults.add(result);
+                else if(new String(Base64.decode(wName,Base64.DEFAULT)).endsWith("defsh")) finalResults.add(result);
+            }
+        }
+        return finalResults;
     }
 
 }
