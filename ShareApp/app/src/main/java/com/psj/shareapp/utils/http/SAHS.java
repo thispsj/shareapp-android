@@ -1,5 +1,6 @@
 package com.psj.shareapp.utils.http;
 
+import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
@@ -10,11 +11,12 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.net.InetSocketAddress;
 import java.net.URLDecoder;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
@@ -27,9 +29,37 @@ public class SAHS {
         final String HOST="share.app";
         HttpServer httpServer=HttpServer.create(new InetSocketAddress(HOST,PORT),0);
         httpServer.createContext("/getFiles",new SAHSHttpHandler());
+        httpServer.createContext("/upFile",new MyFileHandler());
         httpServer.start();
         httpServer.setExecutor(threadPoolExecutor);
         return true;
+    }
+}
+
+class MyFileHandler extends FileDataHandler
+{
+
+    @Override
+    public void handle(HttpExchange httpExchange, List<MultiPart> parts) throws IOException {
+
+    }
+
+    //returns the file names from the headers.
+    private String[] checkHeaders(HttpExchange httpExchange)
+    {
+        String KEY="File-Name";
+        Headers headers=httpExchange.getRequestHeaders();
+        Map<String,String> map=new HashMap<>();
+        /*Set<String> set=headers.keySet();
+        Iterator<String> iterator=set.iterator();*/
+        List<String> list=headers.get(KEY);
+        if (list!=null)
+        {
+        for(int i=0;i<headers.size();i++) {
+            String Content = list.get(i);
+            map.put(KEY + i, Content);
+        }}
+        return null;
     }
 }
 
@@ -71,7 +101,7 @@ class SAHSHttpHandler implements HttpHandler
                         values.add(value);
 
                     } else if (obj instanceof String) {
-                        List<String> values = new ArrayList<String>();
+                        List<String> values = new ArrayList<>();
                         values.add((String) obj);
                         values.add(value);
                         parameters.put(key, values);
