@@ -1,11 +1,17 @@
 package com.psj.shareapp.utils.http;
 
+import android.content.Context;
+
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
@@ -13,23 +19,21 @@ import java.net.InetSocketAddress;
 import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
 public class SAHS {
+    private Context context;
 
-    public boolean startServer() throws IOException
-    {
-        ThreadPoolExecutor threadPoolExecutor=(ThreadPoolExecutor) Executors.newFixedThreadPool(3);
-        final int PORT=2000;
-        final String HOST="share.app";
-        HttpServer httpServer=HttpServer.create(new InetSocketAddress(HOST,PORT),0);
-        httpServer.createContext("/getFiles",new SAHSHttpHandler());
-        httpServer.createContext("/upFile",new MyFileHandler());
+    public boolean startServer() throws IOException {
+        ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(3);
+        final int PORT = 2000;
+        final String HOST = "share.app";
+        HttpServer httpServer = HttpServer.create(new InetSocketAddress(HOST, PORT), 0);
+        httpServer.createContext("/getFiles", new SAHSHttpHandler());
+        httpServer.createContext("/upFile", new MyFileHandler());
         httpServer.start();
         httpServer.setExecutor(threadPoolExecutor);
         return true;
@@ -38,20 +42,42 @@ public class SAHS {
 
 class MyFileHandler extends FileDataHandler
 {
+    private String FileInfo;
+    private byte[] FileContent;
+    private Context c;
 
     @Override
     public void handle(HttpExchange httpExchange, List<MultiPart> parts) throws IOException {
+        FileInfo=getFileName(httpExchange);
+        FileContent=parts.get(0).bytes;
+        //ByteArrayInputStream bais=new ByteArrayInputStream(parts.get(0).bytes);
 
     }
 
-    //returns the file names from the headers.
-    private String[] checkHeaders(HttpExchange httpExchange)
+   // public String getFileInfo(){return FileInfo;}
+
+    //public byte[] getFileContent() { return FileContent; }
+
+    //returns the file name and extension type from headers.(Single File)
+    private String getFileName(HttpExchange exchange)
+    {
+        String KEYS[]={"File-Name","File-Type"};
+        String fen="";
+        Headers headers=exchange.getRequestHeaders();
+        fen+=headers.getFirst(KEYS[0]);
+        fen+=","+headers.getFirst(KEYS[1]);
+        return fen;
+    }
+
+    //returns the file names from the headers.(Multiple Files.)
+    /*
+    private String[] getFileNames(HttpExchange httpExchange)
     {
         String KEY="File-Name";
         Headers headers=httpExchange.getRequestHeaders();
         Map<String,String> map=new HashMap<>();
-        /*Set<String> set=headers.keySet();
-        Iterator<String> iterator=set.iterator();*/
+        //Set<String> set=headers.keySet();
+        //Iterator<String> iterator=set.iterator();
         List<String> list=headers.get(KEY);
         if (list!=null)
         {
@@ -60,7 +86,7 @@ class MyFileHandler extends FileDataHandler
             map.put(KEY + i, Content);
         }}
         return null;
-    }
+    } */
 }
 
 class SAHSHttpHandler implements HttpHandler
