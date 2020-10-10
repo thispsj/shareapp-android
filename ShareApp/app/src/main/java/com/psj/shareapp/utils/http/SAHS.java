@@ -1,6 +1,7 @@
 package com.psj.shareapp.utils.http;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
@@ -12,6 +13,7 @@ import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
@@ -26,6 +28,10 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 public class SAHS {
     private Context context;
+    //private static List<byte[]> files;
+    //private static List<String> fileName;
+
+    public SAHS(Context context) { this.context=context;}
 
     public boolean startServer() throws IOException {
         ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(3);
@@ -33,7 +39,7 @@ public class SAHS {
         final String HOST = "share.app";
         HttpServer httpServer = HttpServer.create(new InetSocketAddress(HOST, PORT), 0);
         httpServer.createContext("/getFiles", new SAHSHttpHandler());
-        httpServer.createContext("/upFile", new MyFileHandler());
+        httpServer.createContext("/upFile", new MyFileHandler(context));
         httpServer.start();
         httpServer.setExecutor(threadPoolExecutor);
         return true;
@@ -45,11 +51,28 @@ class MyFileHandler extends FileDataHandler
     private String FileInfo;
     private byte[] FileContent;
     private Context c;
+    private final String TAG="File-Writer";
+
+    MyFileHandler(Context c) {this.c=c;}
 
     @Override
     public void handle(HttpExchange httpExchange, List<MultiPart> parts) throws IOException {
         FileInfo=getFileName(httpExchange);
         FileContent=parts.get(0).bytes;
+        File file=new File(c.getFilesDir(),"ZapShare");
+        if(!file.exists()) {file.mkdir();}
+        try
+        {
+            File sharedFile=new File(file,FileInfo);
+            FileOutputStream fos = new FileOutputStream(sharedFile);
+            fos.write(FileContent);
+            fos.flush();
+            fos.close();
+        }
+        catch(Exception e)
+        {
+            Log.e(TAG,"Error while writing file.");
+        }
         //ByteArrayInputStream bais=new ByteArrayInputStream(parts.get(0).bytes);
 
     }
@@ -93,14 +116,15 @@ class SAHSHttpHandler implements HttpHandler
 {
     @Override
     public void handle(HttpExchange exchange) throws IOException {
-        Map<String,Object> parameters=new HashMap<String, Object>();
-        InputStreamReader inputStreamReader=new InputStreamReader(exchange.getRequestBody(),"utf-8");
-        BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
-        String query=bufferedReader.readLine();
-        parseQuery(query,parameters);
+        //Map<String,Object> parameters=new HashMap<String, Object>();
+        //InputStreamReader inputStreamReader=new InputStreamReader(exchange.getRequestBody(),"utf-8");
+        //BufferedReader bufferedReader=new BufferedReader(inputStreamReader);
+        //String query=bufferedReader.readLine();
+        //parseQuery(query,parameters);
 
     }
 
+    /*
     private static void parseQuery(String query, Map<String,
             Object> parameters) throws UnsupportedEncodingException {
 
@@ -136,8 +160,6 @@ class SAHSHttpHandler implements HttpHandler
                     parameters.put(key, value);
                 }
             }
-        }
+        }*/
     }
 
-
-}

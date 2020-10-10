@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ShareApp</string>
+    <string name="app_name">ZapShare</string>
     <string name="alpha_app_name_split_1">Share</string>
     <string name="alpha_app_name_split_2">App</string>
     <string name="alpha_txtres_Welcometxt">Welcome %s</string>
