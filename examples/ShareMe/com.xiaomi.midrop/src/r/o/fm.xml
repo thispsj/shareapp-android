@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="ecedf1" android:layout_width="-1" android:layout_height="76dp" android:alpha="{4:1064514355}">
-	<View android:layout_gravity="0x30" android:background="19000" android:layout_width="-1" android:layout_height="2516583unknown unit:0x31" />
-	<TextView android:textSize="14sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="r/f/cl.xml" android:visibility="2" android:layout_width="-1" android:layout_height="42dp" android:layout_marginTop="13dp" android:layout_marginBottom="20dp" android:text="Connect again" android:fontFamily="sans-serif-medium" android:layout_marginStart="26dp" android:layout_marginEnd="26dp" />
-	<include android:visibility="2" layout="r/o/g0.xml" />
-</RelativeLayout>

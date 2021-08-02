@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.xiaomi.midrop.view.RatioByWidthFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="r/f/ex.xml" android:padding="2516583unknown unit:0x31" android:layout_width="0dp" android:layout_height="0dp" android:layout_margin="2dp" android:layout_weight="{4:1065353216}">
-	<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
-	<View android:id="false" android:background="26000" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
-	<LinearLayout android:gravity="0x800055" android:layout_gravity="0x800055" android:id="false" android:layout_width="42dp" android:layout_height="42dp">
-		<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="206438unknown unit:0x21" android:src="r/f/ek.xml" android:scaleType="7" android:layout_marginEnd="206438unknown unit:0x21" />
-	</LinearLayout>
-</com.xiaomi.midrop.view.RatioByWidthFrameLayout>

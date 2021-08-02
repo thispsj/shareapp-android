@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="r/f/ea.xml" android:layout_width="-1" android:layout_height="-2">
-	<TextView android:id="false" style="resourceId:0x7f1001fb" />
-	<View android:background="d9d9d9" android:layout_width="-1" android:layout_height="1px" android:layout_marginStart="481689unknown unit:0x21" android:layout_marginEnd="481689unknown unit:0x21" />
-	<TextView android:id="false" style="resourceId:0x7f1001fb" />
-</LinearLayout>

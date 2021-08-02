@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="r/f/ej.xml" android:paddingTop="18dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
-	<ImageView android:id="false" android:layout_width="40dp" android:layout_height="60dp" android:src="r/a8/p9.png" android:layout_centerInParent="true" />
-</RelativeLayout>

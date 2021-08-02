@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-2" android:layout_height="-2">
-	<ImageView android:id="false" android:layout_width="264dp" android:layout_height="317dp" android:scaleType="1" android:layout_centerInParent="true" />
-	<com.xiaomi.midrop.view.AutoPressedStyleImageView android:id="false" android:paddingBottom="26dp" android:layout_width="44dp" android:layout_height="44dp" android:scaleType="1" android:layout_alignTop="false" android:paddingStart="26dp" android:layout_alignEnd="false" />
-	<TextView android:textSize="16sp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:paddingBottom="3dp" android:layout_width="180dp" android:layout_height="1005977unknown unit:0x21" android:layout_marginBottom="22dp" android:text="Try your luck" android:maxLines="1" android:layout_alignBottom="false" android:layout_centerHorizontal="true" />
-</RelativeLayout>

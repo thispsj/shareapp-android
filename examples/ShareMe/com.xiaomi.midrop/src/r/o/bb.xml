@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
-	<com.xiaomi.midrop.view.ProfileImageView android:layout_gravity="0x1" android:id="false" android:layout_width="54dp" android:layout_height="54dp" android:layout_marginBottom="16dp" />
-	<TextView android:textSize="14sp" android:textColor="000" android:ellipsize="2" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="27dp" android:maxLines="2" android:textDirection="5" />
-	<TextView android:textSize="14sp" android:textColor="55000" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="150732unknown unit:0x21" android:layout_marginBottom="10dp" android:text="Don&apos;t turn off Wi-Fi during ongoing transfers." />
-</LinearLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="0" android:id="false" android:background="r/f/ej.xml" android:layout_width="-1" android:layout_height="-2">
-	<include android:id="false" layout="r/o/bx.xml" />
-	<include android:id="false" layout="r/o/bx.xml" />
-	<include android:id="false" layout="r/o/bx.xml" />
-	<include android:id="false" layout="r/o/bx.xml" />
-	<include android:id="false" layout="r/o/bx.xml" />
-</LinearLayout>

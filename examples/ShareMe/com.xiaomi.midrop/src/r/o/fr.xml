@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
-	<android.support.v7.widget.Toolbar android:id="false" android:layout_width="-1" android:layout_height="-2" android:minHeight="{2:2130968580}" />
-	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
-</LinearLayout>

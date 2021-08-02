@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="fafafa" android:layout_width="-1" android:layout_height="-2">
-	<View android:id="false" android:background="efefef" android:layout_width="-2" android:layout_height="7dp" android:layout_marginTop="4dp" />
-	<TextView android:textSize="14sp" android:ellipsize="3" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_height="40dp" android:text="You can view only 50 most recent history records." android:maxLines="1" android:layout_below="false" android:layout_centerInParent="true" style="resourceId:0x7f1001f4" />
-</RelativeLayout>

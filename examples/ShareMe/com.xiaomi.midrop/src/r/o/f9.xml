@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
-	<TextView android:textSize="12sp" android:textColor="444444" android:gravity="0x11" android:layout_gravity="0x51" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15dp" android:layout_marginBottom="100dp" android:text="Searching for ShareMe users nearby…" android:layout_marginStart="15dp" android:layout_marginEnd="15dp" />
-</FrameLayout>

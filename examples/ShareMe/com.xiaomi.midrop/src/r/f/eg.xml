@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:state_expanded="true" android:drawable="r/f/eh.xml" />
-	<item android:drawable="r/f/ef.xml" />
-</selector>

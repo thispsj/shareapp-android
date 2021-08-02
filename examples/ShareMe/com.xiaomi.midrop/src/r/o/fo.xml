@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:background="fff8f8f8" android:layout_width="-1" android:layout_height="-1">
-	<include android:gravity="0x1" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="99dp" android:layout_weight="{4:1065353216}" layout="r/o/fq.xml" />
-	<include android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="14dp" layout="r/o/fp.xml" />
-</LinearLayout>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x3" android:layout_gravity="0x1" android:orientation="1" android:id="false" android:layout_width="102dp" android:layout_height="-2">
-	<com.xiaomi.midrop.view.RadarScanView android:layout_gravity="0x11" android:id="false" android:layout_width="52dp" android:layout_height="52dp" android:scaleType="3" />
-</LinearLayout>

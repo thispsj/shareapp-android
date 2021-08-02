@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:id="resourceId:0x1020000" android:drawable="r/a8/i6.png" />
-	<item android:id="resourceId:0x102000f" android:drawable="r/a8/i9.png" />
-	<item android:id="resourceId:0x102000d">
-		<bitmap android:src="r/a8/i6.png" />
-	</item>
-</layer-list>

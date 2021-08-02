@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:state_checked="true" android:id="false" android:drawable="r/a8/h.png" />
-	<item android:id="false" android:drawable="r/a8/i.png" />
-	<transition android:drawable="r/w/hn.xml" android:toId="false" android:fromId="false" />
-	<transition android:drawable="r/w/hm.xml" android:toId="false" android:fromId="false" />
-</animated-selector>

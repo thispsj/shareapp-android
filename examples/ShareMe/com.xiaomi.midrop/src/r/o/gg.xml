@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android">
-	<com.journeyapps.barcodescanner.BarcodeView android:id="false" android:layout_width="-1" android:layout_height="-1" />
-	<com.journeyapps.barcodescanner.ViewfinderView android:id="false" android:layout_width="-1" android:layout_height="-1" />
-	<TextView android:textColor="ffffffff" android:layout_gravity="0x51" android:id="false" android:background="0000" android:layout_width="-2" android:layout_height="-2" android:text="Place a barcode inside the viewfinder rectangle to scan it." />
-</merge>

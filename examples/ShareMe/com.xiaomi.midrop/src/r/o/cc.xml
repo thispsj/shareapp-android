@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="fff8f8f8" android:layout_width="-1" android:layout_height="-1">
-	<FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
-		<android.support.v7.widget.RecyclerView android:id="false" android:padding="2dp" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1" />
-		<include android:visibility="2" layout="r/o/c0.xml" />
-		<include android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" layout="r/o/dy.xml" />
-	</FrameLayout>
-</LinearLayout>

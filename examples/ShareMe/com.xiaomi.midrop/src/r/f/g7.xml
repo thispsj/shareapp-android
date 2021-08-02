@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.xiaomi.midrop">
-	<item android:state_enabled="true" android:state_pressed="false" android:drawable="r/a8/o9.webp" />
-	<item android:state_enabled="true" android:state_pressed="true" android:drawable="r/a8/oa.webp" />
-	<item android:state_enabled="false" android:drawable="r/a8/o_.webp" />
-	<item android:drawable="r/a8/o9.webp" />
-</selector>

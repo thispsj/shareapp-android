@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
-	<TextView android:textSize="15sp" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Couldn&apos;t connect to the network.
-Check network settings and try again." />
-	<Button android:id="false" android:visibility="2" android:layout_width="180dp" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Refresh" />
-	<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:indeterminateOnly="true" />
-</LinearLayout>

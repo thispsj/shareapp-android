@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="r/f/h6.xml">
-	<target android:name="circleGroup" android:animation="r/a3/a5.xml" />
-	<target android:name="circlePath" android:animation="r/a3/a4.xml" />
-</animated-vector>

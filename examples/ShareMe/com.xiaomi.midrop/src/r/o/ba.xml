@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-2" android:layout_height="-2">
-	<RelativeLayout android:id="false" android:background="r/t/jb.9.png" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true">
-		<ImageView android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:src="r/t/je.png" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-		<TextView android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="resourceId:0x7f100204" />
-	</RelativeLayout>
-	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="-10dp" android:src="r/t/jd.png" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-	<ImageView android:layout_gravity="0x51" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-13dp" android:src="r/t/jc.png" android:layout_below="false" android:layout_centerHorizontal="true" />
-</RelativeLayout>

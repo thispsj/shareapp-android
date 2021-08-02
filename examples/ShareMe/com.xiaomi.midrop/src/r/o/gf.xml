@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="f7f7f7" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
-	<TextView android:textSize="12sp" android:textColor="80000" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="ShareMe needs to access your contacts to be able to transfer items." android:layout_centerInParent="true" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" />
-	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="416153unknown unit:0x21" android:src="r/a8/m_.webp" android:layout_above="false" android:layout_centerHorizontal="true" />
-	<TextView android:textSize="416153unknown unit:0x22" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="r/f/ev.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Allow" android:layout_below="false" android:layout_centerHorizontal="true" android:textAllCaps="true" />
-</RelativeLayout>

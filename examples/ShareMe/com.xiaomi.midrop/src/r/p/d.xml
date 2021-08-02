@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
-	<shortcut android:icon="r/a5/hd.png" android:enabled="true" android:shortcutId="receiveFile" android:shortcutShortLabel="Receive files">
-		<intent android:targetPackage="com.xiaomi.midrop" android:action="com.xiaomi.CHOOSE_RECEIVE" android:targetClass="com.xiaomi.midrop.SplashScreen" />
-	</shortcut>
-	<shortcut android:icon="r/a5/he.png" android:enabled="true" android:shortcutId="sendFile" android:shortcutShortLabel="Send files">
-		<intent android:targetPackage="com.xiaomi.midrop" android:action="com.xiaomi.CHOOSE_SEND" android:targetClass="com.xiaomi.midrop.SplashScreen" />
-	</shortcut>
-</shortcuts>

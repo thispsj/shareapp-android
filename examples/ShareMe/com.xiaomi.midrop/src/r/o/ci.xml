@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
-	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:paddingStart="15dp" android:paddingEnd="15dp">
-		<EditText android:id="false" android:padding="10dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:hint="Username" android:selectAllOnFocus="true" android:textDirection="5" android:textAlignment="5" android:layoutDirection="3" style="resourceId:0x7f1001d6" />
-		<EditText android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:hint="Password" android:selectAllOnFocus="true" android:inputType="0x81" android:textDirection="5" android:textAlignment="5" android:layoutDirection="3" style="resourceId:0x7f1001d6" />
-		<TextView android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="4–16 characters, letters, and digits, case sensitive" android:textDirection="5" android:textAlignment="5" style="@android:style/TextAppearance.Small" />
-	</LinearLayout>
-</ScrollView>

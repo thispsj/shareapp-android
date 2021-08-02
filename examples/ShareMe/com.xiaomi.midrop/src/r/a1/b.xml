@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-	<item android:icon="r/a8/qa.png" android:id="false" android:title="Crop" app:showAsAction="0x1" />
-	<item android:icon="r/f/h7.xml" android:enabled="false" android:id="false" android:title="" app:showAsAction="0x1" />
-</menu>

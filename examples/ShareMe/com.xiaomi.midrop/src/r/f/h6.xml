@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="30dp" android:width="30dp" android:viewportWidth="{4:1128267776}" android:viewportHeight="{4:1128267776}">
-	<group android:name="circleGroup" android:pivotX="{4:1119879168}" android:pivotY="{4:1119879168}" android:rotation="{4:0}">
-		<path android:name="circlePath" android:pathData="M96,5.56405C145.946,5.56405 186.436,46.0536 186.436,96C186.436,145.946 145.946,186.436 96,186.436C46.0536,186.436 5.56405,145.946 5.56405,96C5.56405,46.0536 46.0536,5.56405 96,5.56405Z" android:strokeColor="ffffff" android:strokeWidth="{4:1095761920}" android:trimPathEnd="{4:1060320051}" android:strokeAlpha="{4:1065353216}" />
-	</group>
-</vector>
